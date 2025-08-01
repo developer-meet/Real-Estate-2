@@ -71,9 +71,6 @@
 /* Hero Section */
 
 .hero-sec {
-  /* background-image: url(../Assets/Img\ 1.png);
-  background-size: cover;
-  background-position: center; */
   position: relative;
   padding-bottom: 130px !important;
 }
@@ -160,5 +157,60 @@
 
   .hero-sec .hero-sec-para {
     font-size: 20px !important;
+  }
+}
+
+/* Quality Section */
+
+.quality-sec {
+  border-bottom: 1px solid #e7e9ed;
+}
+
+.quality-sec .quality-box1:first-child,
+.quality-sec .quality-box3:first-child {
+  color: var(--sim-blue);
+}
+
+.quality-sec .quality-box1 > p:nth-child(2),
+.quality-sec .quality-box3 > p:nth-child(2) {
+  color: var(--sim-gray) !important;
+  width: 100px;
+}
+
+.quality-sec .quality-box2 {
+  color: var(--black);
+}
+
+.quality-sec .quality-box2 span {
+  color: var(--sim-dark-green);
+}
+
+@media screen and (max-width: 1050px) {
+  .body .quality-sec {
+    display: block !important;
+  }
+
+  .quality-sec div {
+    justify-content: center;
+  }
+
+  .quality-sec .quality-box2 {
+    text-align: center;
+    margin: 20px 0 !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .body .quality-sec {
+    padding: 50px 20px !important;
+  }
+
+  .quality-sec .quality-box1 > p:nth-child(1),
+  .quality-sec .quality-box3 > p:nth-child(1) {
+    font-size: 32px !important;
+  }
+
+  .quality-sec .quality-box2 {
+    font-size: 28px !important;
   }
 }
