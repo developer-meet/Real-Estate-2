@@ -1,0 +1,69 @@
+/* Import Font Poppins and Roboto */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+:root {
+  --white: white;
+  --black: black;
+  --sim-dark-green: #2e8b8c;
+  --sim-cream: #c9c9c9;
+  --sim-blue: #161c2d;
+  --sim-dark-gray: #2c2c2c;
+  --sim-gray: #666666;
+  --sim-light-gray: #505050;
+  --sim-light-black: #2a2a2a;
+}
+
+/* Width */
+
+.max-width-1280px {
+  max-width: 1280px !important;
+}
+
+/* Font size */
+
+.fs-17px {
+  font-size: 17px;
+}
+
+.fs-20px {
+  font-size: 20px;
+}
+
+.fs-24px {
+  font-size: 24px;
+}
+
+.fs-28px {
+  font-size: 28px;
+}
+
+.fs-34px {
+  font-size: 34px;
+}
+
+.fs-40px {
+  font-size: 40px;
+}
+
+.fs-48px {
+  font-size: 48px;
+}
+
+.fs-64px {
+  font-size: 64px;
+}
