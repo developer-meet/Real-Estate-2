@@ -12,8 +12,12 @@
 
 * {
   padding: 0 !important;
-  margin: 0 !important;
+  margin: 0;
   box-sizing: border-box !important;
+}
+
+body p {
+  margin-bottom: 0;
 }
 
 :root {
@@ -110,6 +114,7 @@
   border-radius: 20px;
   top: 28px;
   right: 28px;
+  border: none;
 }
 
 .hero-sec-heading {
@@ -295,6 +300,11 @@
   .about-sec-quailitys div i {
     margin-top: 18px !important;
   }
+
+  .about-sec-main-box .about-sec-btn {
+    padding: 10px !important;
+    font-size: 16px;
+  }
 }
 
 /* Contact Us Section */
@@ -366,10 +376,79 @@
   }
 
   .contact-us-form-heading {
-    font-size: 32px !important;
+    font-size: 28px !important;
+    margin-bottom: 30px !important;
   }
 
   .contact-us-right-sec .contact-us-form {
-    padding: 30px !important;
+    padding: 15px !important;
+  }
+
+  .contact-us-form input,
+  .contact-us-form textarea {
+    padding: 10px !important;
+  }
+
+  .contact-us-form textarea {
+    margin-bottom: 20px !important;
+  }
+
+  .contact-us-form button {
+    width: 80% !important;
+    padding: 8px !important;
+  }
+}
+
+/* Client Section */
+
+.clients-sec {
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.clients-sec-top-sec h2 {
+  color: var(--sim-dark-gray);
+  margin-bottom: 100px !important;
+}
+
+.carousel-para,
+.clients-name {
+  color: var(--sim-gray);
+}
+
+.clients-sec-bottom-sec .carousel-inner {
+  width: 95% !important;
+}
+
+.clients-sec-bottom-sec button {
+  width: auto !important;
+}
+
+@media screen and (max-width: 576px) {
+  .body .clients-sec {
+    padding: 50px 20px !important;
+  }
+
+  .clients-sec-top-sec h2 {
+    font-size: 32px !important;
+    margin-bottom: 60px !important;
+  }
+
+  .carousel-img-sec img {
+    height: 90px !important ;
+    margin-bottom: 40px;
+  }
+
+  .carousel-para,
+  .clients-name {
+    font-size: 16px !important;
+  }
+
+  .clients-sec-bottom-sec .carousel-inner {
+    width: 80% !important;
+  }
+
+  .carousel-item div {
+    margin-bottom: 0px !important;
   }
 }
